@@ -865,7 +865,7 @@ h3{
   position: absolute;
   white-space: nowrap;
   will-change: transform;
-  animation: marquee 5s linear infinite;
+  animation: marquee 10s linear infinite;
 }
 
 @keyframes marquee {
@@ -874,11 +874,7 @@ h3{
 }
 
 /*Отключение анимации в Safari*/
-@media screen and (-webkit-min-device-pixel-ratio:0) {     
-    .track{
-        animation: none;
-    }
-}
+
 
 
 @media only screen and (max-width: 700px){
