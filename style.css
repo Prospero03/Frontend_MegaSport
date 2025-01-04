@@ -79,7 +79,16 @@ ul{
 }
 li{
     cursor: pointer;
+    transition: ease all 0.5s;
+    
 }
+li:hover{
+    cursor: pointer;
+    color: #1F5DFD;
+    
+}
+
+
 
 
 .block_1 .row_1 {
@@ -1207,8 +1216,10 @@ h3{
     }
 
     .block_7 .box .column_2 .analysis_box .text_1 h3{
-        display: none;
+        font-size: 26px;
+        line-height: normal;
     }
+
     .block_7 .box .column_2 .analysis_box .text_1 .adaptive_h3{
         margin: 0px;
         padding: 0px;
@@ -1219,6 +1230,11 @@ h3{
         margin: 0px;
         margin-top: 5px;
         padding: 0px;
+    }
+
+    .block_6 .column_box_right .title h5{
+        font-size: 25px;
+        
     }
 }
 @media only screen and (max-width: 700px){
@@ -1420,7 +1436,7 @@ h3{
 @media only screen and (max-width: 700px){
     .footer{
         
-        padding: 18px 40px;
+        padding: 18px 0px;
         
     }
     .footer .title h3{
@@ -1429,7 +1445,7 @@ h3{
     }
 
     .footer .box_bottom{
-        border: 1px solid red;
+        
         width: 100%;
         color: #fff;
         display: flex;
